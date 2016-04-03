@@ -1,0 +1,12 @@
+Package: lipopetidor
+Type: Package
+Title: Lipopeptidor, lipopeptide database for MS structure determination
+Version: 0.1.1
+Date: 2016-04-01
+Author: Fichou Dimitri
+Maintainer: Fichou Dimitri <dimitrifichou@gmail.com>
+Description: This package provide a database containing all possible lipopeptide determined by brute force and an application to explore it
+License: GPL
+Depends: dplyr, magrittr, shiny
+LazyData: TRUE
+RoxygenNote: 5.0.1
