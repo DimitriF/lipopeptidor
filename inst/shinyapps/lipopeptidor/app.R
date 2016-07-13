@@ -19,7 +19,8 @@ ui <- fluidPage(title = "Lipopeptidor",
                                  border-width: 2px;right: 10px;height: 36px;width: 50%;background-color: #EEF8FF;margin: 0px;padding: 2px 3px;opacity: 1;}")),
   tags$head(tags$style(type="text/css", ".btn {border-radius: 20px; font-size: 30px;}")),
   h2("Lipoptidor"),
-  dataTableOutput("table")
+  dataTableOutput("table"),
+  includeMarkdown('convention.md')
 )
 
 server <- function(input,output,session){
