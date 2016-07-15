@@ -21,3 +21,5 @@ Some convention were made during the creation of the table:
 - The potential ramification in the Lipo part are not taken into account.
 
 - There is no insaturation in the Lipo part.
+
+- There is between 10 and 22 carbone in the Lipo part.

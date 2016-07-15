@@ -26,7 +26,7 @@ ui <- fluidPage(title = "Lipopeptidor",
 server <- function(input,output,session){
   output$table <- renderDataTable({
     my_db <- src_sqlite("www/lipopeptide_db", create = FALSE)
-    tbl(my_db,"MS_candidat") %>% as.data.frame()
+    tbl(my_db,"MS_candidat") %>% as.data.frame(n=-1)
   },options = list(pageLength = 10))
 }
 
